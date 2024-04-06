@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Tutorial</title>
+</head>
+<body>
+    <h1>Getting Started with Firebase!</h1>
+    <h2>Firebase Firestore</h2>
+
+    <form class="add">
+        <label for="title">Title:</label>
+        <input type="text" name="title" required/>
+        <label for="author">Author:</label>
+        <input type="text" name="author" required/>
+
+        <button>add a new doc</button>
+    </form>
+
+    <form class="delete">
+        <label for="id">Document id:</label>
+        <input type="text" name="id" required/>
+
+        <button>delete a doc</button>
+    </form>
+
+    <form class="update">
+        <label for="title">Document ID:</label>
+        <input type="text" name="id" required/>
+        <label for="title">Title:</label>
+        <input type="text" name="title"/>
+        <label for="author">Author:</label>
+        <input type="text" name="author"/>
+
+        <Button>update a doc</Button>
+    </form>
+
+    <h2>Firebase Authentication</h2>
+
+    <form class="signup">
+        <label for="email">Email:</label>
+        <input type="email" name="email"/>
+        <label for="password">Password:</label>
+        <input type="password" name="password"/>
+
+        <Button>sign up</Button>
+    </form>
+
+    <form class="login">
+        <label for="email">Email:</label>
+        <input type="email" name="email"/>
+        <label for="password">Password:</label>
+        <input type="password" name="password"/>
+
+        <Button>login</Button>
+    </form>
+
+    <button class="logout">logout</button>
+
+    <h2>Unsubscribe</h2>
+
+    <button class="unsub">unsbscribe from db/auth changes</button>
+
+    <script src="./bundle.js"></script>
+</body>
+</html>
