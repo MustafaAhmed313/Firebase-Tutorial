@@ -22,6 +22,10 @@ import {
     onAuthStateChanged
 } from 'firebase/auth';
 
+/**
+ * Change the firebaseConfig object with yours 
+ * to see the result of your cloud database application ^_^! 
+ */
 const firebaseConfig = {
     apiKey: "AIzaSyCGrDKnNZcq2JfNUluCnp8o7hlSPPOHArU",
     authDomain: "fir-tutorial-6be2c.firebaseapp.com",
